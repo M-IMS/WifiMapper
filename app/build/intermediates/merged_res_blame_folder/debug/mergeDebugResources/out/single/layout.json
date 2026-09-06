@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-mergeDebugResources-54:/layout/activity_ar.xml",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/layout/activity_ar.xml"
+    },
+    {
+        "merged": "com.example.wifimapper.app-mergeDebugResources-54:/layout/layout_settings_sheet.xml",
+        "source": "com.example.wifimapper.app-main-57:/layout/layout_settings_sheet.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.wifimapper.app-mergeDebugResources-54:/layout/activity_ar.xml",
+        "source": "com.example.wifimapper.app-main-57:/layout/activity_ar.xml"
+    },
+    {
+        "merged": "com.example.wifimapper.app-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "com.example.wifimapper.app-main-57:/layout/activity_main.xml"
+    }
+]

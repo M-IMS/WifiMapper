@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#2E7D32</color>
+
+    <color name="heatmap_grid">#D3D3D3</color>
+    <color name="heatmap_placeholder">#808080</color>
+    <color name="heatmap_label">#000000</color>
+    <color name="options_background">#EEEEEE</color>
+</resources>

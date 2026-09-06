@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="heatmap_grid">#444444</color>
+    <color name="heatmap_label">#FFFFFF</color>
+    <color name="heatmap_placeholder">#AAAAAA</color>
+    <color name="options_background">#222222</color>
+    <style name="Theme.WifiMapper" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#81C784</item>
+        <item name="colorOnPrimary">#003300</item>
+        <item name="colorPrimaryContainer">#1B5E20</item>
+        <item name="colorOnPrimaryContainer">#C8E6C9</item>
+        <item name="colorSecondary">#4CAF50</item>
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+</resources>

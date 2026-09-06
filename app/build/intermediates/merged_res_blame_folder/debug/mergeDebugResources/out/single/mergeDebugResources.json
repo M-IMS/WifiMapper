@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/layout_activity_ar.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/layout/activity_ar.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/drawable_ic_settings.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/layout_activity_main.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/drawable_ic_close.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/drawable_ic_map.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/drawable/ic_map.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/layout_layout_settings_sheet.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/layout/layout_settings_sheet.xml"
+    },
+    {
+        "merged": "com.example.wifimapper.app-debug-55:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.wifimapper.app-main-57:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/drawable_ic_delete.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/drawable_ic_ar.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/drawable/ic_ar.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/drawable_ic_export.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/drawable/ic_export.xml"
+    },
+    {
+        "merged": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-debug-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/ims/.gradle/daemon/9.5.0/com.example.wifimapper.app-main-57:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="heatmap_grid">#D3D3D3</color>
+    <color name="heatmap_label">#000000</color>
+    <color name="heatmap_placeholder">#808080</color>
+    <color name="ic_launcher_background">#2E7D32</color>
+    <color name="options_background">#EEEEEE</color>
+    <string name="app_name">WiFi Mapper</string>
+    <string name="ar_tracking_ready">Ready to log points!</string>
+    <string name="ar_tracking_searching">Searching for surfaces...</string>
+    <string name="blank_map_mode">Blank Map Mode</string>
+    <string name="close">Close</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="enter_ar">AR Mode</string>
+    <string name="exit_ar">Exit AR</string>
+    <string name="log_ar_reading">Log Point</string>
+    <string name="map_settings">Map Settings</string>
+    <string name="options_label">Options:</string>
+    <string name="reset_view">Reset View</string>
+    <string name="settings">Settings</string>
+    <string name="visual_heatmap">Visual Heatmap</string>
+    <style name="Theme.WifiMapper" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#2E7D32</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#A5D6A7</item>
+        <item name="colorOnPrimaryContainer">#1B5E20</item>
+        <item name="colorSecondary">#66BB6A</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

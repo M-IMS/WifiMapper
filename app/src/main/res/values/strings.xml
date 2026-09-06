@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WiFi Mapper</string>
+    <string name="visual_heatmap">Visual Heatmap</string>
+    <string name="blank_map_mode">Blank Map Mode</string>
+    <string name="options_label">Options:</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="reset_view">Reset View</string>
+    <string name="enter_ar">AR Mode</string>
+    <string name="log_ar_reading">Log Point</string>
+    <string name="exit_ar">Exit AR</string>
+    <string name="ar_tracking_searching">Searching for surfaces...</string>
+    <string name="ar_tracking_ready">Ready to log points!</string>
+    <string name="settings">Settings</string>
+    <string name="map_settings">Map Settings</string>
+    <string name="close">Close</string>
+</resources>

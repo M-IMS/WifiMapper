@@ -1,0 +1,10 @@
+- [x] Modern & Minimal UI Redesign
+    - [x] Create vector icons in `app/src/main/res/drawable/`
+    - [x] Update `themes.xml` (light & dark) to Material 3
+    - [x] Create `layout_settings_sheet.xml`
+    - [x] Update `activity_main.xml` (immersive layout)
+    - [x] Update `activity_ar.xml` (minimal AR UI)
+    - [x] Update `MainActivity.kt` (Logic for new UI & bottom sheet)
+- [x] Verification
+    - [x] Build project
+    - [x] Manual check of new UI elements

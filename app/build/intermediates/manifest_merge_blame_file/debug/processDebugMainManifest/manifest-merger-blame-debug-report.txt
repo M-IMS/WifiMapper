@@ -1,0 +1,250 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.wifimapper"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="33" />
+9-->INJECTED
+10
+11    <!-- WiFi scanning -->
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:5:5-76
+12-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:6:5-76
+13-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:6:22-73
+14    <!-- WiFi scan results require location permission on Android 8+ -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:8:5-79
+15-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:9:5-81
+16-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:9:22-78
+17    <!-- To pick a floor plan photo from gallery -->
+18    <uses-permission
+18-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:11:5-12:38
+19        android:name="android.permission.READ_EXTERNAL_STORAGE"
+19-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:11:22-77
+20        android:maxSdkVersion="32" />
+20-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:12:9-35
+21    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+21-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:13:5-76
+21-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:13:22-73
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:14:5-65
+22-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:14:22-62
+23
+24    <uses-feature
+24-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:16:5-82
+25        android:name="android.hardware.wifi"
+25-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:16:19-55
+26        android:required="true" />
+26-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:16:56-79
+27    <uses-feature
+27-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:17:5-85
+28        android:name="android.hardware.camera"
+28-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:17:19-57
+29        android:required="false" />
+29-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:17:58-82
+30    <uses-feature
+30-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:18:5-88
+31        android:name="android.hardware.camera.ar"
+31-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:18:19-60
+32        android:required="false" />
+32-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:18:61-85
+33
+34    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Needed to load gltf from network. -->
+34-->[io.github.sceneview:arsceneview:0.10.0] /home/ims/.gradle/caches/9.5.0/transforms/e0b5fc60a358698e564cb2d6af500aaf/transformed/arsceneview-0.10.0/AndroidManifest.xml:9:5-71
+34-->[io.github.sceneview:arsceneview:0.10.0] /home/ims/.gradle/caches/9.5.0/transforms/e0b5fc60a358698e564cb2d6af500aaf/transformed/arsceneview-0.10.0/AndroidManifest.xml:9:22-68
+35    <uses-permission android:name="android.permission.INTERNET" /> <!-- SceneView requires OpenGLES 3.0 or later for 3D rendering. -->
+35-->[io.github.sceneview:sceneview:0.10.0] /home/ims/.gradle/caches/9.5.0/transforms/4c2c76a0831b7b5807ad39d8d58ea9c9/transformed/sceneview-0.10.0/AndroidManifest.xml:8:5-67
+35-->[io.github.sceneview:sceneview:0.10.0] /home/ims/.gradle/caches/9.5.0/transforms/4c2c76a0831b7b5807ad39d8d58ea9c9/transformed/sceneview-0.10.0/AndroidManifest.xml:8:22-64
+36    <uses-feature
+36-->[io.github.sceneview:sceneview:0.10.0] /home/ims/.gradle/caches/9.5.0/transforms/4c2c76a0831b7b5807ad39d8d58ea9c9/transformed/sceneview-0.10.0/AndroidManifest.xml:11:5-13:35
+37        android:glEsVersion="0x00030000"
+37-->[io.github.sceneview:sceneview:0.10.0] /home/ims/.gradle/caches/9.5.0/transforms/4c2c76a0831b7b5807ad39d8d58ea9c9/transformed/sceneview-0.10.0/AndroidManifest.xml:12:9-41
+38        android:required="true" />
+38-->[io.github.sceneview:sceneview:0.10.0] /home/ims/.gradle/caches/9.5.0/transforms/4c2c76a0831b7b5807ad39d8d58ea9c9/transformed/sceneview-0.10.0/AndroidManifest.xml:13:9-32
+39
+40    <permission
+40-->[androidx.core:core:1.12.0] /home/ims/.gradle/caches/9.5.0/transforms/3b7fe03c20a7335f3894b03e23a460b5/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+41        android:name="com.example.wifimapper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.12.0] /home/ims/.gradle/caches/9.5.0/transforms/3b7fe03c20a7335f3894b03e23a460b5/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.12.0] /home/ims/.gradle/caches/9.5.0/transforms/3b7fe03c20a7335f3894b03e23a460b5/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.example.wifimapper.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.12.0] /home/ims/.gradle/caches/9.5.0/transforms/3b7fe03c20a7335f3894b03e23a460b5/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.12.0] /home/ims/.gradle/caches/9.5.0/transforms/3b7fe03c20a7335f3894b03e23a460b5/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+45
+46    <queries>
+46-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:20:5-27:15
+47        <package android:name="com.google.ar.core" />
+47-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:21:9-54
+47-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:21:18-51
+48        <package android:name="com.android.vending" />
+48-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:22:9-55
+48-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:22:18-52
+49
+50        <intent>
+50-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:24:9-26:18
+51            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE" />
+51-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:25:13-96
+51-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:25:21-93
+52        </intent>
+53    </queries>
+54
+55    <application
+55-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:20:5-48:19
+56        android:allowBackup="false"
+56-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:21:9-36
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.12.0] /home/ims/.gradle/caches/9.5.0/transforms/3b7fe03c20a7335f3894b03e23a460b5/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+58        android:debuggable="true"
+59        android:extractNativeLibs="false"
+59-->INJECTED
+60        android:icon="@mipmap/ic_launcher"
+60-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:22:9-43
+61        android:label="@string/app_name"
+61-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:24:9-41
+62        android:roundIcon="@mipmap/ic_launcher_round"
+62-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:23:9-54
+63        android:testOnly="true"
+64        android:theme="@style/Theme.WifiMapper"
+64-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:25:9-48
+65        android:usesCleartextTraffic="false" >
+65-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:26:9-45
+66        <meta-data
+66-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:28:9-81
+67            android:name="com.google.ar.core"
+67-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:28:20-53
+68            android:value="optional" />
+68-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:28:54-78
+69
+70        <!-- No internet permission is requested anywhere in this manifest. -->
+71
+72        <activity
+72-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:32:9-40:20
+73            android:name="com.example.wifimapper.MainActivity"
+73-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:33:13-41
+74            android:exported="true"
+74-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:34:13-36
+75            android:screenOrientation="portrait" >
+75-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:35:13-49
+76            <intent-filter>
+76-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:36:13-39:29
+77                <action android:name="android.intent.action.MAIN" />
+77-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:37:17-69
+77-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:37:25-66
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:38:17-77
+79-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:38:27-74
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:42:9-47:55
+83            android:name="com.example.wifimapper.ARActivity"
+83-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:43:13-39
+84            android:configChanges="orientation|screenSize|density"
+84-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:46:13-67
+85            android:exported="false"
+85-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:44:13-37
+86            android:screenOrientation="portrait"
+86-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:45:13-49
+87            android:theme="@style/Theme.WifiMapper" />
+87-->/home/ims/Downloads/VSCODE/WifiMapper/app/src/main/AndroidManifest.xml:47:13-52
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.2.0] /home/ims/.gradle/caches/9.5.0/transforms/a6c7efbf51edeebc7f65c3bed6b3c919/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.2.0] /home/ims/.gradle/caches/9.5.0/transforms/a6c7efbf51edeebc7f65c3bed6b3c919/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+91            android:authorities="com.example.wifimapper.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.2.0] /home/ims/.gradle/caches/9.5.0/transforms/a6c7efbf51edeebc7f65c3bed6b3c919/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.2.0] /home/ims/.gradle/caches/9.5.0/transforms/a6c7efbf51edeebc7f65c3bed6b3c919/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.2.0] /home/ims/.gradle/caches/9.5.0/transforms/a6c7efbf51edeebc7f65c3bed6b3c919/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.2.0] /home/ims/.gradle/caches/9.5.0/transforms/a6c7efbf51edeebc7f65c3bed6b3c919/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.2.0] /home/ims/.gradle/caches/9.5.0/transforms/a6c7efbf51edeebc7f65c3bed6b3c919/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ims/.gradle/caches/9.5.0/transforms/681406af0b53dbc5bdc1212be7b271f0/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ims/.gradle/caches/9.5.0/transforms/681406af0b53dbc5bdc1212be7b271f0/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ims/.gradle/caches/9.5.0/transforms/681406af0b53dbc5bdc1212be7b271f0/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+101                android:value="androidx.startup" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+102        </provider> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+103        <meta-data
+103-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:32:9-34:41
+104            android:name="com.google.ar.core.min_apk_version"
+104-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:33:13-62
+105            android:value="241930000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+105-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:34:13-38
+106        <activity
+106-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:36:9-42:80
+107            android:name="com.google.ar.core.InstallActivity"
+107-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:37:13-62
+108            android:configChanges="keyboardHidden|orientation|screenSize"
+108-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:38:13-74
+109            android:excludeFromRecents="true"
+109-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:39:13-46
+110            android:exported="false"
+110-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:40:13-37
+111            android:launchMode="singleTop"
+111-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:41:13-43
+112            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+112-->[com.google.ar:core:1.45.0] /home/ims/.gradle/caches/9.5.0/transforms/306bbfff47a57b9dddf0e3110d4c813b/transformed/core-1.45.0/AndroidManifest.xml:42:13-77
+113
+114        <receiver
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+116            android:directBootAware="false"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+117            android:enabled="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+118            android:exported="true"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ims/.gradle/caches/9.5.0/transforms/7fd727258e9bafd12ffc526198a536d0/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+131            </intent-filter>
+132        </receiver>
+133    </application>
+134
+135</manifest>
