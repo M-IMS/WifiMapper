@@ -1,6 +1,0 @@
-- [x] Update root `build.gradle`
-    - [x] Update Kotlin plugin version
-    - [x] Remove redundant `allprojects` block
-- [x] Verify changes
-    - [x] Run Gradle Sync
-    - [x] Run `analyze_file` on root `build.gradle`
